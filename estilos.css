@@ -1,0 +1,59 @@
+/* Cor padrão dos itens da navbar */
+.navbar .nav-link,
+.navbar .navbar-toggler-icon,
+.navbar .navbar-brand {
+  color: #fff;
+}
+
+/* Cor da navbar após o scroll */
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+/* Efeito de blur na navbar após o scroll */
+.navbar-scrolled {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, .15);
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
+
+/* Adicione mais estilos conforme necessário */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+label, input {
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+
+h1{
+    font-size: 2.5em;
+    color: #333; /* Cor do texto */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #666; /* Cor do texto */
+    text-align: center;
+}
+
+
+
