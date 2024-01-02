@@ -1,3 +1,43 @@
+/*definindo objetos mais claros para o site
+
+Objeto: 
+
+- Agenda: Mostrar inicialmente um calendário simples.
+          Posteriormente transformar este na funçao Agendar:
+          Será necessario definir Como essa funça operará.
+
+- Preço (Botao) que abre as opçoes deslizando para lateral direita
+          * Conversor de Moeda Tempo real: 
+          * Cliente vê um botao sem preço de sessao ainda
+          Ao clicar, cliente vê duas opcões: ! botao Individual e botao casal! 
+          * O cliente deve selecionar a moeda para qual haverá a conversao
+          * Saída de Preço no system out indicando Preço e com acréscimo da seguinte informacao::
+
+- Contatar o profissional: 
+  System out no Hover: 
+  Ao deslizar mouse por cima desta opcao, cliente recebe informacao: 
+  "For Schedulle or Doubt. I answer on same day!"
+
+- Footer com Links e favicon do Whatsapp e Instagram. Ou link flutuante para o wpp. 
+
+- Fim da Primeira fase do Site
+*/
+
+/*Padronizando Containers*/
+
+
+
+.container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+
 /* Cor padrão dos itens da navbar */
 .navbar .nav-link,
 .navbar .navbar-toggler-icon,
