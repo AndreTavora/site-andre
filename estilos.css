@@ -26,44 +26,70 @@ Objeto:
 /*Padronizando Containers*/
 
 
-
-.container {
+            
+container {
             width: 80%;
             max-width: 1200px;
             margin: 20px auto;
-            background-color: #fff;
+            background-color: #ffffff1e;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             padding: 20px;
             border-radius: 8px;
             box-sizing: border-box;
         }
 
-/* Cor padrão dos itens da navbar */
-.navbar .nav-link,
-.navbar .navbar-toggler-icon,
-.navbar .navbar-brand {
-  color: #fff;
+/* estilos.css */
+
+/* Estilo básico para a barra de navegação */
+.navbar {
+  border-bottom: 2px solid #666
+  background-color: #333; /* Cor de fundo da barra de navegação */
+  padding: 10px; /* Espaçamento interno da barra de navegação */
+  color: white; /* Cor do texto na barra de navegação */
+  display: flex; /* Usar o modelo de layout Flexbox */
+  justify-content: space-between; /* Alinhar os itens ao longo do eixo principal (horizontal) */
+  align-items: center; /* Alinhar os itens ao longo do eixo transversal (vertical) */
 }
 
-/* Cor da navbar após o scroll */
-.navbar-scrolled {
-  background-color: #cbbcb1;
+/* Estilo para os links na barra de navegação */
+.navbar a {
+  border-bottom: 2px solid;
+  color: white; /* Cor dos links na barra de navegação */
+  text-decoration: none; /* Remover sublinhado dos links */
+  margin: 0 15px; /* Espaçamento entre os links */
 }
 
-/* Efeito de blur na navbar após o scroll */
-.navbar-scrolled {
-  backdrop-filter: blur(5px);
-  background-color: rgba(255, 255, 255, .15);
+/* Estilo para os links na barra de navegação quando hover (passar o mouse por cima) */
+.navbar a:hover {
+  border-bottom: 2px solid ;
+  color: #ffcc00; /* Cor dos links ao passar o mouse por cima */
 }
 
+/* Estilo para o link do logotipo na barra de navegação */
 .navbar-brand {
-  font-size: 1.75rem;
-  letter-spacing: 3px;
+  border-bottom: 2px solid;
+  font-size: 1.5em; /* Tamanho da fonte do logotipo */
+}
+
+/* Estilo para a lista de navegação */
+.nav {
+  border-bottom: 2px solid;
+  list-style-type: none; /* Remover marcadores de lista */
+  display: flex; /* Usar o modelo de layout Flexbox para a lista */
+}
+
+/* Estilo para os itens da lista de navegação */
+.nav-item {
+  border-bottom: 2px solid transparent;
+  margin-right: 15px; /* Espaçamento entre os itens da lista */
 }
 
 /* Adicione mais estilos conforme necessário */
 
 body {
+    
+    
+    background-color: rgb(81, 219, 173);
     font-family: Arial, sans-serif;
     margin: 20px;
 }
@@ -89,11 +115,20 @@ h1{
     margin-bottom: 10px;
 }
 
+h2 { 
+     text-align: center;
+
+}
 p {
     font-size: 1.2em;
     color: #666; /* Cor do texto */
     text-align: center;
 }
 
-
-
+.imgmargem{
+  box-sizing: content-box;
+  margin-top: 25%;
+  margin-bottom: 25%;
+  margin-left: 15%;
+  margin-right: 15%;
+}

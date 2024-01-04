@@ -8,7 +8,8 @@
         navbar.classList.remove('navbar-scrolled');
       }
     });
-   //Adicionando validaçao do Form de Login e Senha 
+  
+    //Adicionando validaï¿½ao do Form de Login e Senha 
 function validateForm() {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
